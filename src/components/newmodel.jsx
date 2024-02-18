@@ -869,11 +869,11 @@ export function Model(props) {
       <OrbitControls
         // enabled={!ishotspotVisible}
         ref={orbitcontrols}
-        minAzimuthAngle={-Math.PI / 4}
-        maxAzimuthAngle={Math.PI / 2}
+        minAzimuthAngle={-Math.PI}
+        maxAzimuthAngle={Math.PI}
         minPolarAngle={Math.PI / 3}
         maxPolarAngle={Math.PI / 2.5}
-        maxDistance={27}
+        maxDistance={30}
         minDistance={3} />
 
 <group ref={group} {...props} dispose={null}>
